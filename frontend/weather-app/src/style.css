@@ -1,0 +1,132 @@
+body {
+  background-color: #F4F4F5;
+  max-width: 100%;
+}
+
+input {
+  min-width: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+#userlist-wrapper {
+  padding-top: 80px;
+}
+
+#userlist-wrapper .table {
+  margin-top: 20px;
+  position: relative;
+}
+
+#userlist-wrapper .table .user-tr {
+  cursor: pointer;
+}
+
+#userlist-wrapper .table .user-tr #td-buttons {
+  text-align: right;
+  padding-left: 0;
+}
+
+#userlist-wrapper .table .user-tr .fa-plus-circle {
+  font-size: 30px;
+}
+
+#userlist-wrapper .table .user-tr form button {
+  border: 0;
+  background-color: initial;
+  cursor: pointer;
+}
+
+#userlist-wrapper .table .user-tr form .fa-plus-circle, #userlist-wrapper .table .user-tr form .fa-save {
+  font-size: 25px;
+  opacity: 0.5;
+}
+
+#userlist-wrapper .table .user-tr form .fa-plus-circle:hover, #userlist-wrapper .table .user-tr form .fa-save:hover {
+  opacity: 0.8;
+}
+
+#userlist-wrapper .table .user-tr form .fa-times-circle {
+  font-size: 25px;
+  margin-left: 5px;
+  color: rgba(255, 0, 0, 0.4);
+}
+
+#userlist-wrapper .table .user-tr form .fa-times-circle:hover {
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.8);
+}
+
+#userlist-wrapper .table .user-tr .user-buttons {
+  cursor: default;
+  position: absolute;
+  padding: 0;
+  right: 0;
+}
+
+#userlist-wrapper .table .user-tr .user-buttons div {
+  right: 0;
+}
+
+#userlist-wrapper .table .user-tr .user-buttons .fa-pen {
+  opacity: 0.5;
+}
+
+#userlist-wrapper .table .user-tr .user-buttons .fa-pen:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#userlist-wrapper .table .user-tr .user-buttons .fa-times-circle {
+  color: rgba(255, 0, 0, 0.4);
+}
+
+#userlist-wrapper .table .user-tr .user-buttons .fa-times-circle:hover {
+  cursor: pointer;
+  color: rgba(255, 0, 0, 0.8);
+}
+
+#userdetails-wrapper {
+  padding-top: 10px;
+  text-align: center;
+}
+
+#userdetails-wrapper h1 {
+  margin-bottom: 40px;
+}
+
+#userdetails-wrapper .row {
+  margin-top: 60px;
+}
+
+#userdetails-wrapper .row div h1 {
+  font-size: 83px;
+  margin-bottom: 0;
+}
+
+#userdetails-wrapper .row i {
+  margin-top: 15px;
+  font-size: 100px;
+}
+
+#userdetails-wrapper #weatherforecast {
+  text-align: center;
+  margin: 0;
+  margin-top: 70px;
+  font-size: 22px;
+}
+
+#userdetails-wrapper #weatherforecast i {
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+#userdetails-wrapper #weatherforecast h6 {
+  margin-top: 20px;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+#userdetails-wrapper #weatherforecast h5 {
+  font-size: 24px;
+}
